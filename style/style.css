@@ -37,11 +37,13 @@ body {
 
 .navbar input {
     padding: 5px;
+    border-radius: 5px;
 }
 
 .menu {
     display: flex;
     gap: 15px;
+    position: relative;
 }
 
 .menu a {
@@ -79,7 +81,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 20px;
     flex-wrap: wrap;
     padding: 30px 40px;
 }
@@ -113,3 +115,24 @@ footer {
     text-align: center;
     padding: 10px 20px;;
 }
+
+.hamburguer {
+    display: none;
+}
+
+@media screen and (max-width: 710px){
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #a8a8a8;
+        padding: 10px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .hamburguer {
+        display: block;
+        cursor: pointer;
+    }
+} 
+    

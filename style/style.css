@@ -60,7 +60,8 @@ body {
     height: 300px;
     overflow: hidden;
     position: relative;
-    margin: 30px auto;
+    margin: 15
+    0px auto;
     border-radius: 10px;
 }
 
@@ -88,7 +89,7 @@ body {
 }
 
 .card {
-    padding: 15px;
+    padding: 10px;
     border: 1px solid var(--cinza2);
     border-radius: 8px;
     width: 300px;
@@ -143,4 +144,13 @@ width: 100px;
 
 .form {
     padding: 70px;
+}
+
+.column {
+    display: inline-block;
+}
+
+body img {
+    width: 150px;
+    height: 150px;
 }
